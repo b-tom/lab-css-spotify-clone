@@ -1,8 +1,117 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+.navBar{
+    display: flex;
+    justify-content:space-between;
+    position: static;
+}
+.navBar img{
+    height: 50px;
+    padding-left: 10px;
+}
+.navButtons{
+    margin-right: 1em;
+    display:flex;
+    align-content: center;
+}
+.navBar a{
+    margin: 0.5em;
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(78, 78, 78);
+    font-family:"Arial";
+}
+.centerScreen{
+    height: 35em;
+    margin: 1em 0;
+    background-image: url("/images/landing.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0% 20%;
+}
+.centerScreen h1{
+    font-size: 3em;
+    font-family: 'Arial';
+}
+.centerScreen h3{
+    font-size: 1.5em;
+    font-family: 'Arial';
+    text-align: center;
+    font-weight: lighter;
+}
+.centerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Arial";
+}
+.iconsContent{
+    display: flex;
+    margin-top: 20px;
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    height: 250px;
+    text-align: center;
+    margin: 0 5px;
+}
+.icons h2{
+    color: #00B172;
+}
+.icons p{
+padding: 0 20%;
+}
+.icons img{
+    height: 100px;
+}
+.appSection{
+    background-color: #00B172;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.logo{
+    border: solid 1px white;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.appImage{
+    border: solid 1px red;
+    
+}
+.appImage img{
+    width: 160px;
+    height: 280px;
+}
+.yeezy{
+    font-family: 'Arial';
+    color: white;
+    border: solid 1px blue;
+    width: 40%;
+    padding: 25px 0 ;
+}
+.yeezy p{
+    font-family: 'Arial';
+    width: 52%;
+    font-weight: 100;
+}
+.yeezy h2{
+    font-family: 'Arial';
+    font-weight: 100;
+    text-decoration: underline;
+}
